@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"    
+    >
+    <LinearLayout 
+        android:orientation="horizontal"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content" 
+        >
+        <TextView
+	        android:layout_width="150dip"
+	        android:layout_height="wrap_content"
+	        android:text="name : "
+	        />
+        <EditText 
+            android:id="@+id/myName"
+            android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="soohyun"
+            />        
+    </LinearLayout>
+    <LinearLayout 
+        android:orientation="horizontal"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content" 
+        >
+        <TextView
+	        android:layout_width="150dip"
+	        android:layout_height="wrap_content"
+	        android:text="age : "
+	        />
+        <EditText 
+            android:id="@+id/myAge"
+            android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="17"
+            />        
+    </LinearLayout>
+    <LinearLayout 
+        android:orientation="horizontal"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content" 
+        >
+        <TextView
+	        android:layout_width="150dip"
+	        android:layout_height="wrap_content"
+	        android:text="birthday : "
+	        />
+        <EditText 
+            android:id="@+id/myBirthday"
+            android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="0102"
+            />        
+    </LinearLayout>
+    <Button 
+        android:id="@+id/ok"
+        android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:text="Submit to SubActivity!!"
+        />  
+
+</LinearLayout>
